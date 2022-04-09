@@ -21,10 +21,6 @@ where
         .collect()
 }
 
-pub(crate) fn nano_to_second(second: u64) -> u64 {
-    second / 10u64.pow(9)
-}
-
 pub(crate) fn second_to_nano(second: u64) -> u64 {
     second * 10u64.pow(9)
 }
